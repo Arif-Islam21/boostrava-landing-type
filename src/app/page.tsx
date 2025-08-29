@@ -187,25 +187,49 @@ const Index = () => {
                 href="#features"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Features
+                About
               </a>
               <a
                 href="#targeting"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Targeting
+                Solutins
               </a>
               <a
                 href="#reporting"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Analytics
+                DSP
               </a>
               <a
                 href="#case-studies"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Case Studies
+                SSP
+              </a>
+              <a
+                href="#case-studies"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                C-TV
+              </a>
+              <a
+                href="#case-studies"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                Dooh
+              </a>
+              <a
+                href="#case-studies"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                Contact
+              </a>
+              <a
+                href="#case-studies"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                Agency
               </a>
               <Button className="bg-gradient-primary hover:opacity-90">
                 Get Started
@@ -905,7 +929,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-background border-t border-border py-12">
+      {/* <footer className="bg-background border-t border-border py-12">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -958,7 +982,7 @@ const Index = () => {
             <p>&copy; 2024 Boost RAVA. All rights reserved.</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
