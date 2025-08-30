@@ -9,7 +9,6 @@ import {
   BarChart3,
 } from "lucide-react";
 import { Button } from "../ui/button";
-// import { Button } from "@/components/ui/button";
 
 export const BenefitsSection = () => {
   const benefits = [

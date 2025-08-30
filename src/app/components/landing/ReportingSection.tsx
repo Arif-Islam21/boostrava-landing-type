@@ -57,7 +57,7 @@ export const ReportingSection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            Boost RAVA's unique reporting system provides complete real-time
+            Boost RAVAs unique reporting system provides complete real-time
             visibility into your campaign performance with actionable insights
             and beautiful visualizations.
           </p>

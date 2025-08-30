@@ -18,7 +18,6 @@ import {
   Users,
   Shield,
   Clock,
-  Star,
   ArrowRight,
   CheckCircle,
   Rocket,
@@ -28,7 +27,6 @@ import {
   HeadphonesIcon,
   MessageCircle,
   PieChart,
-  Lightbulb,
   Pin,
   Maximize,
   Play,
@@ -36,7 +34,7 @@ import {
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState(0);
-
+  console.log(activeSection);
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll(".section");
@@ -790,7 +788,7 @@ const Index = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Our dedicated support team is available around the clock to ensure
-              your success. From onboarding to optimization, we're here to help
+              your success. From onboarding to optimization, were here to help
               you maximize your results.
             </p>
           </div>
@@ -845,7 +843,7 @@ const Index = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Discover how leading companies have transformed their advertising
-              performance with Boost RAVA's programmatic platform.
+              performance with Boost RAVAs programmatic platform.
             </p>
           </div>
 

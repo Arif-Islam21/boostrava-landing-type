@@ -1,5 +1,13 @@
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Youtube } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  Twitter,
+  Facebook,
+  Youtube,
+} from "lucide-react";
+import { Button } from "../../components/ui/button";
 
 export const Footer = () => {
   const footerLinks = {
@@ -8,29 +16,23 @@ export const Footer = () => {
       "For Publishers",
       "API Documentation",
       "Integrations",
-      "Pricing"
+      "Pricing",
     ],
     Resources: [
       "Case Studies",
       "Blog",
       "Webinars",
       "Documentation",
-      "Help Center"
+      "Help Center",
     ],
-    Company: [
-      "About Us",
-      "Careers",
-      "Press",
-      "Contact",
-      "Partners"
-    ],
+    Company: ["About Us", "Careers", "Press", "Contact", "Partners"],
     Legal: [
       "Privacy Policy",
       "Terms of Service",
       "Cookie Policy",
       "GDPR Compliance",
-      "Security"
-    ]
+      "Security",
+    ],
   };
 
   return (
@@ -47,10 +49,10 @@ export const Footer = () => {
               <span className="text-3xl font-bold">Boost RAVA</span>
             </div>
             <p className="text-white/80 text-lg mb-6 leading-relaxed">
-              The world's most advanced programmatic advertising network. 
-              Powered by machine learning and built for performance.
+              The worlds most advanced programmatic advertising network. Powered
+              by machine learning and built for performance.
             </p>
-            
+
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
@@ -75,8 +77,8 @@ export const Footer = () => {
               <ul className="space-y-3">
                 {links.map((link, index) => (
                   <li key={index}>
-                    <a 
-                      href="#" 
+                    <a
+                      href="#"
                       className="text-white/70 hover:text-white transition-colors duration-300"
                     >
                       {link}
@@ -94,7 +96,8 @@ export const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
               <p className="text-white/80 text-lg">
-                Get the latest insights on programmatic advertising, industry trends, and platform updates.
+                Get the latest insights on programmatic advertising, industry
+                trends, and platform updates.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
@@ -103,7 +106,11 @@ export const Footer = () => {
                 placeholder="Enter your email"
                 className="flex-1 px-6 py-3 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
               />
-              <Button variant="gradient" size="lg" className="whitespace-nowrap">
+              <Button
+                variant="gradient"
+                size="lg"
+                className="whitespace-nowrap"
+              >
                 Subscribe
               </Button>
             </div>
@@ -120,16 +127,28 @@ export const Footer = () => {
 
             {/* Social Links */}
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-white/60 hover:text-white transition-colors duration-300">
+              <a
+                href="#"
+                className="text-white/60 hover:text-white transition-colors duration-300"
+              >
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white/60 hover:text-white transition-colors duration-300">
+              <a
+                href="#"
+                className="text-white/60 hover:text-white transition-colors duration-300"
+              >
                 <Twitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white/60 hover:text-white transition-colors duration-300">
+              <a
+                href="#"
+                className="text-white/60 hover:text-white transition-colors duration-300"
+              >
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white/60 hover:text-white transition-colors duration-300">
+              <a
+                href="#"
+                className="text-white/60 hover:text-white transition-colors duration-300"
+              >
                 <Youtube className="w-6 h-6" />
               </a>
             </div>

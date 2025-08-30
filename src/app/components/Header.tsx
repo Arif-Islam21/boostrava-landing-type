@@ -1,26 +1,17 @@
 "use client";
 
-import { Badge } from "./ui/badge";
-import { Input } from "./ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Search, ShoppingCart, User, Heart, Menu } from "lucide-react";
-import { useState } from "react";
+import { User, Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "../components/ui/navigation-menu";
 
 const Header = () => {
-  const [cartCount] = useState(3);
-
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container md:px-[2rem] mx-auto flex h-16 items-center justify-between">

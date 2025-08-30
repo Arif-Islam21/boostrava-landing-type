@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -20,16 +20,28 @@ export const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#advertisers" className="text-foreground hover:text-primary transition-colors">
+            <a
+              href="#advertisers"
+              className="text-foreground hover:text-primary transition-colors"
+            >
               For Advertisers
             </a>
-            <a href="#publishers" className="text-foreground hover:text-primary transition-colors">
+            <a
+              href="#publishers"
+              className="text-foreground hover:text-primary transition-colors"
+            >
               For Publishers
             </a>
-            <a href="#case-studies" className="text-foreground hover:text-primary transition-colors">
+            <a
+              href="#case-studies"
+              className="text-foreground hover:text-primary transition-colors"
+            >
               Case Studies
             </a>
-            <a href="#support" className="text-foreground hover:text-primary transition-colors">
+            <a
+              href="#support"
+              className="text-foreground hover:text-primary transition-colors"
+            >
               Support
             </a>
           </nav>
@@ -37,7 +49,9 @@ export const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost">Sign In</Button>
-            <Button variant="hero" size="lg">Request Demo</Button>
+            <Button variant="hero" size="lg">
+              Request Demo
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -53,16 +67,28 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col space-y-4">
-              <a href="#advertisers" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#advertisers"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 For Advertisers
               </a>
-              <a href="#publishers" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#publishers"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 For Publishers
               </a>
-              <a href="#case-studies" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#case-studies"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Case Studies
               </a>
-              <a href="#support" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#support"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Support
               </a>
               <div className="flex flex-col space-y-2 pt-4">
