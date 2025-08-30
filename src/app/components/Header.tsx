@@ -35,7 +35,14 @@ const Header = () => {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Item Two</NavigationMenuTrigger>
+                <Link href={"/dooh-landing"}>
+                  <NavigationMenuTrigger>Dooh</NavigationMenuTrigger>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link href={"/ctv"}>
+                  <NavigationMenuTrigger>ctv</NavigationMenuTrigger>
+                </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
